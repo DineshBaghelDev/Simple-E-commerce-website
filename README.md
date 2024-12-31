@@ -1,3 +1,5 @@
+![Website Screenshot](https://github.com/DineshBaghelDev/Simple-E-commerce-website/screenshot.png?raw=true)
+
 # CodeMart
 An extremely simple and minimalist e-commerce website.
 
