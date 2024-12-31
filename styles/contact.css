@@ -1,0 +1,57 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: max(300px, 40vw);
+    margin: 50px auto;
+    box-shadow: 1px 1px 20px rgba(102, 102, 255, 0.349);
+    padding: 50px 20px;
+    border-radius: 20px;
+    
+    h1{
+        align-self: center;
+        color: orange;
+    }
+
+    label{
+        font-size: 20px
+    }
+    input{
+        outline: none;
+        padding: 4px 8px;
+        font-size: 20px;
+        border-radius: 50px;
+        border: none;
+        border: 1px solid rgb(105, 105, 242);
+    }
+    textarea{
+        outline: none;
+        padding: 4px 8px;
+        font-size: 20px;
+        border-radius: 5px;
+        resize: none;
+        overflow: scroll;
+        border: 1px solid rgb(105, 105, 242);
+    }
+
+    button{
+        width: 130px;
+        padding: 10px;
+        font-size: 20px;
+        align-self: center;
+        border-radius: 10px;
+        background-color: orange;
+        color: aliceblue;
+        border: none;
+        margin: 20px;
+        cursor: pointer;
+    }
+}
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://picsum.photos/1200/500') no-repeat center center/cover;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

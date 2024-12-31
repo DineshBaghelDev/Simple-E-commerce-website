@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    
+    <title>CodeMart - Your Online Store</title>
+</head>
+<body>
+    
+    <header class="hero">
+        <div class="hero-text">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#">Code<p style="color: orange;display:inline;">Mart</p></a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="contact">
+        <form id="userinfo">
+            <h1>Contact us</h1>
+            <Label for="name">Name</Label>
+            <input type="text" name="name" id="name" required placeholder="Name">
+            <Label for="email">Email Id</Label>
+            <input type="email" name="email" id="email" required placeholder="Email address">
+            <Label for="desc">Description</Label>
+            <textarea name="desc" id="desc" rows="5" required placeholder="Description"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2023 CodeMart. All rights reserved.</p>
+    </footer>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/contact.js"></script>
+</body>
+</html>
